@@ -1,1 +1,26 @@
+# Alfred stores a user's configured workflow values here.
+# Keep defaults in info.plist; do not commit local prefs.plist changes.
 prefs.plist
+
+# macOS noise
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor/runtime temporary files
+*.swp
+*~
+*.tmp
+.refresh.*
+.matches.*
+
+# Legacy runtime downloads, if an older script version placed them
+# inside the workflow checkout. Keep the rest of assets/ trackable.
+assets/data.json
+assets/strings.json
+assets/civs.json
+assets/civs.txt
+assets/data.updated
+assets/data.checked
+assets/icons/
+assets/.refresh-lock/
