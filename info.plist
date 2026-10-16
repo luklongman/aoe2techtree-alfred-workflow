@@ -480,11 +480,36 @@ jq -Rn '
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>Quick search of AoE2: DE Civ Tech trees on aoe2techtree.net with your default browser.
+	<string>https://github.com/luklongman/aoe2techtree-alfred-workflow/
+  
+## `aoe`: take a quick look on [aoe2techtree.net](aoe2techtree.net)
+  
+## Install &amp; Configure
 
-This workflow depends on jq. If you do not have it yet.
-1. Install with Homebrew (brew install jq), or;
-2. Reolsve with Alfred's Dependencies Manager (https://www.alfredapp.com/help/kb/dependencies/)</string>
+
+1. Download the latest `.alfredworkflow` from the [Releases](../../releases) page.
+
+2. Open the downloaded file and confirm the import in Alfred.
+
+3. This workflow uses `jq`, a lightweight command-line JSON processor. You may install it either with:
+	1. Homebrew: `brew install jq`, or;
+	2. [Alfred's built-in Dependencies Manager](https://www.alfredapp.com/help/kb/dependencies/)
+4. *(Optional)* To customize the keyword, open the workflow's configuration and replace `aoe` with your preference.
+
+---  
+
+## Fetch &amp; Download
+
+Upon the first run, this workflow downloads the current civ data and icons from [Siege Engineers AoE2 Tech Tree](https://github.com/SiegeEngineers/aoe2techtree) (&lt;2MB in total) and store them in Alfred's per-workflow data directory in order to improve search speed. A background refresh checks for updates periodically.
+
+The first invocation downloads the current civilization data, English descriptions, and civilization icons. These files are stored in Alfred's per-workflow data directory on your Mac, not in the workflow's source folder. After the initial setup, search results use the local cache; a background refresh checks for updated source data periodically.
+
+---
+
+
+This is an independent community workflow. Shout out to [Siege Engineers AoE2 Tech Tree](https://github.com/SiegeEngineers/aoe2techtree) for constantly updating and sharing the game data.
+
+Created by: [Luk Long Man](https://github.com/luklongman)</string>
 	<key>uidata</key>
 	<dict>
 		<key>317403E2-D453-4752-BA71-A785BFCCC6D1</key>
