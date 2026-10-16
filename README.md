@@ -1,15 +1,11 @@
-# AoE2DE Tech Tree Quick Search Alfred Workflow
+# (Alfred Workflow) AoE2:DE Tech Tree Quick Search
   
-## Usage
-  
-Quick Search of a civ's tech tree on [aoe2techtree.net](aoe2techtree.net) via the `aoe` keyword.
+## `aoe`: take a quick look on [aoe2techtree.net](aoe2techtree.net)
 
 ![aoe2techtree-1.png](https://pub-b5fd5637194140da82aab38eadc4a60e.r2.dev/attachments/png/41/41a74e370925ae8a2cbdddf91639c0f4b56669197ac72f242b34460d0948083b.png)
 
 ![CleanShot 2026-10-16 at 14.41.03@2x.png](https://pub-b5fd5637194140da82aab38eadc4a60e.r2.dev/attachments/png/f8/f8262aef14082250dfb78806c8796bfe7064047ff229daa251bc8aab9ba1f320.png)
-
-![CleanShot 2026-10-16 at 14.41.49@2x.png](https://pub-b5fd5637194140da82aab38eadc4a60e.r2.dev/attachments/png/42/42166c4ae66695b5251ed634a7a0acbbacc4de4357b50856748fec0ff59c97e2.png)
-  
+  ![aoe2techtree-3.jpeg](https://pub-b5fd5637194140da82aab38eadc4a60e.r2.dev/attachments/jpeg/85/859483b025994d7bd9bb28827914651bd2b554a6294989936b8172a305b5696b.jpeg)
 *Within seconds, Varangian's tech tree is shown in your default browser.
   
 ## Installation and Configuration
@@ -33,4 +29,11 @@ The first invocation downloads the current civilization data, English descriptio
 ## Credits
 
 - This is an independent community workflow. Shout out to [Siege Engineers AoE2 Tech Tree](https://github.com/SiegeEngineers/aoe2techtree) for constantly updating and sharing the game data.  
-- [Alfred](https://www.alfredapp.com/) for providing the workflow platform.
+  
+
+
+
+
+
+
+
